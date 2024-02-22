@@ -23,4 +23,5 @@ not touching the keyboard or mouse for extended periods.  What I want,
 then is for the displays to be suspended on idle, *only after
 "bedtime"*.
 
-
+To compile this program, run 'swiftc mac-idler.swift'.  You will need
+to install the swift compiler via XCode.
