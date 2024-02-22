@@ -31,7 +31,7 @@ func wakeDisplay() {
 
 // Main
 if CommandLine.argc < 2 {
-  print("Usage: DisplaySleepMonitor <idle time in seconds> \(sleepStartHourArgument) <start hour> \(sleepEndHourArgument) <end hour>")
+  print("Usage: mac-idler <idle time in seconds> \(sleepStartHourArgument) <start hour> \(sleepEndHourArgument) <end hour>")
   exit(1)
 }
 
